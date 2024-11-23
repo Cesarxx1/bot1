@@ -6,7 +6,7 @@ from openai import OpenAI
 st.title("💬 Chatbot Cesar")
 st.write(
    "Esta en una prueba de un Chatbot generado en clase "
-   "To use this app, you need to provide an OpenAI API key, which you can get [here](https://platform.openai.com/account/api-keys). "
+   
    "You can also learn how to build this app step by step by [following our tutorial](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)."
 )
 openai_api_key = st.secrets["api_key"] 
